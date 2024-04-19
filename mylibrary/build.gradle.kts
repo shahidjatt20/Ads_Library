@@ -53,13 +53,9 @@ afterEvaluate {
             create<MavenPublication>("release") {
                 from(components["release"])
                 groupId = "com.integrated.it.ads.library"
-                artifactId = "ads-library"
-                version = "1.0"
+                artifactId = "mylibrary"
+                version = "1.0.1"
             }
         }
     }
 }
-//java {
-//    sourceCompatibility = JavaVersion.VERSION_1_8
-//    targetCompatibility = JavaVersion.VERSION_1_8
-//}
